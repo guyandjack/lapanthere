@@ -1042,7 +1042,7 @@ h4 {
 }
 
 
-/************ modification pour obtimisation accessibilite *****************/
+/************ modification pour obtimisation  accessibilite / seo *****************/
 
 /**** page accueil ****/
 
@@ -1076,6 +1076,14 @@ h4 {
 
 .width-max{
     width: 100%;
+}
+
+strong{
+    font-size: normal;
+}
+
+.adress{
+    font-size: 20px;
 }
 
 
