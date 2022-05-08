@@ -66,10 +66,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -1130,10 +1130,14 @@ strong{
     
     .bg-banniere {
     background-image: url("img/agence-la-panthere-900px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
     .bg-presentation {
     background-image: url("img/image-de-presentation-900px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 }
 
@@ -1141,10 +1145,14 @@ strong{
     
     .bg-banniere {
     background-image: url("img/agence-la-panthere-600px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
     .bg-presentation {
     background-image: url("img/image-de-presentation-600px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 }
 
