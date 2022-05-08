@@ -1045,7 +1045,7 @@ h4 {
 }
 
 
-/************ modification pour obtimisation  accessibilite / seo *****************/
+/************ modification pour obtimisation  accessibilite / seo / performance *****************/
 
 /**** page accueil ****/
 
@@ -1124,4 +1124,27 @@ strong{
 }
 
 
+/*******  modification de la taille de l' image de la baniere en fonction de taille des ecran **********/
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    
+    .bg-banniere {
+    background-image: url("img/agence-la-panthere-900px.jpg");
+    }
+
+    .bg-presentation {
+    background-image: url("img/image-de-presentation-900px.jpg");
+    }
+}
+
+@media screen and  (max-width: 767px) {
+    
+    .bg-banniere {
+    background-image: url("img/agence-la-panthere-600px.jpg");
+    }
+
+    .bg-presentation {
+    background-image: url("img/image-de-presentation-600px.jpg");
+    }
+}
 
