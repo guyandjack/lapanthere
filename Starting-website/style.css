@@ -821,11 +821,15 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere-1200px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-1200px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 1024px) {
@@ -1130,14 +1134,12 @@ strong{
     
     .bg-banniere {
     background-image: url("img/agence-la-panthere-900px.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     }
 
     .bg-presentation {
     background-image: url("img/image-de-presentation-900px.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     }
 }
 
@@ -1145,14 +1147,12 @@ strong{
     
     .bg-banniere {
     background-image: url("img/agence-la-panthere-600px.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     }
 
     .bg-presentation {
     background-image: url("img/image-de-presentation-600px.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     }
 }
 
