@@ -780,12 +780,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #814A33;
+    background:  #AA613E;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #814A33!important;
     color: #FFFFFF!important;
 }
 
@@ -1115,6 +1115,10 @@ strong{
 
 .white{
     color: white;
+}
+
+.dark-orange{
+    color: rgb(253, 204, 57)!important;
 }
 
 
