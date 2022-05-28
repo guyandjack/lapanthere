@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -462,7 +462,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -1051,7 +1051,14 @@ h4 {
 
 /************ modification pour obtimisation  accessibilite / seo / performance *****************/
 
-/**** page accueil ****/
+/**** accessibilite ****/
+a:focus-visible, button:focus-visible, input:focus-visible, .scrollToTop:focus-visible{
+    outline: 6px dotted rgb(104, 237, 9);
+}
+
+
+
+
 
 .citation{
     font-size: 25px;
@@ -1081,6 +1088,7 @@ h4 {
     color: white;
 }
 
+
 @media screen and (max-width: 768px) {
     
     .footer-list{
@@ -1103,7 +1111,7 @@ h4 {
 }
 
 strong{
-    font-size: normal;
+    font-weight:normal ;
 }
 
 .adress{
